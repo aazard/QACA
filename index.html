@@ -565,6 +565,7 @@ nav a[aria-current="page"]::after {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    text-decoration: none;
 }
 
 .cta-button::before {
@@ -792,6 +793,7 @@ body.dark-mode .assembly-subtag {
     padding: 0.5rem 1rem;
     border-radius: 30px;
     transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
 }
 
 .petition-button:hover {
@@ -950,6 +952,7 @@ body.dark-mode .section-header p {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    text-decoration: none;
 }
 
 .principles-button::before {
@@ -1873,6 +1876,9 @@ footer {
         <nav>
             <a href="#guiding" aria-label="Navigate to Guiding Principles section"><i class="fas fa-compass" aria-hidden="true"></i> Guiding Principles</a>
             <a href="#premium" aria-label="Navigate to Premium Distinctions section"><i class="fas fa-scroll" aria-hidden="true"></i> Premium Distinctions</a>
+            <a href="#" aria-label="Navigate to Degree Concierge"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Degree Concierge</a>
+            <a href="#" aria-label="Navigate to QACA Charter"><i class="fas fa-book" aria-hidden="true"></i> QACA Charter</a>
+            <a href="#" aria-label="Navigate to Basic Access"><i class="fas fa-universal-access" aria-hidden="true"></i> Basic Access</a>
             <a href="#features" aria-label="Navigate to Why QACA section"><i class="fas fa-pen-nib" aria-hidden="true"></i> Why QACA</a>
             <a href="#invite" class="invite-link" aria-label="Learn about The Learned Assembly"><i class="fas fa-lock" aria-hidden="true"></i> The Learned Assembly</a>
         </nav>
@@ -1887,9 +1893,13 @@ footer {
                 </div>
                 <p>QACA - Quantum Academic Credential Advisors provides polished, tailored guidance to elevate your academic profile and professional presentation — discreetly delivered by those who know how to open the right doors.</p>
                 <div class="button-seal-container">
-                    <div class="wax-seal" aria-hidden="true"></div>
-                    <button type="button" class="cta-button" aria-label="Explore your credential options">Explore Your Credential Options</button>
-                    <div class="wax-seal" aria-hidden="true"></div>
+                    <a href="#" class="wax-seal-link" aria-label="Explore credential options">
+                        <div class="wax-seal" aria-hidden="true"></div>
+                    </a>
+                    <a href="#" class="cta-button" aria-label="Explore credential options">Explore Your Credential Options</a>
+                    <a href="#" class="wax-seal-link" aria-label="Explore credential options">
+                        <div class="wax-seal" aria-hidden="true"></div>
+                    </a>
                 </div>
                 <a href="#guiding" class="secondary-button" aria-label="Explore our guiding principles">Explore Our Charter</a>
             </div>
@@ -1899,10 +1909,13 @@ footer {
             <div class="assembly-content">
                 <div class="assembly-tag">The Learned Assembly</div>
                 <p class="assembly-description">An exclusive consortium of accomplished professionals curated through merit and distinction</p>
+                <p class="assembly-description">Assembly access is invitation-only. Apply for credential review, or petition by essay, to qualify</p>
                 <div class="assembly-subtag">
                     <span>Members, By Invite Only</span>
-                    <div class="small-seal" aria-hidden="true"></div>
-                    <button type="button" class="petition-button" aria-label="Petition for membership by essay">Petition For Membership By Essay</button>
+                    <a href="#" class="small-seal-link" aria-label="Petition for membership">
+                        <div class="small-seal" aria-hidden="true"></div>
+                    </a>
+                    <a href="#" class="petition-button" aria-label="Petition for membership">Petition For Membership By Essay</a>
                 </div>
             </div>
         </section>
@@ -1951,7 +1964,7 @@ footer {
                         </div>
                     </li>
                 </ul>
-                <button type="button" class="principles-button" aria-label="Discover our methodology">Discover Our Methodology</button>
+                <a href="#" class="principles-button" aria-label="Discover our methodology">Discover Our Methodology</a>
             </div>
         </section>
         
@@ -1962,7 +1975,7 @@ footer {
             </div>
             <div class="premium-content">
                 <h3 class="premium-title">Executive Credential Presentation</h3>
-                <p class="premium-description">Our premium service transforms your academic and professional credentials into a compelling narrative that opens doors at the highest levels. We go beyond traditional resume services to craft an academic portfolio that commands attention and respect.</p>
+                <p class="premium-description">Our premium service transforms your academic and professional credentials into a compelling narrative that opens doors at the highest levels. We go beyond traditional resume services to craft an academic portfolio that commands attention and respect. Personalized, express, degree seeker guidance offered via <a href="#" class="gold-text" style="font-weight:bold">Degree Concierge</a>.</p>
                 <div class="service-highlights">
                     <a href="/services/curriculum-vitae" class="service-card" aria-label="Curriculum Vitae Refinement service">
                         <h3><i class="fas fa-file-invoice" aria-hidden="true"></i> Curriculum Vitae Refinement</h3>
@@ -2088,6 +2101,9 @@ footer {
                 <ul class="footer-links">
                     <li><a href="#guiding" aria-label="Navigate to Guiding Principles"><i class="fas fa-chevron-right" aria-hidden="true"></i> Guiding Principles</a></li>
                     <li><a href="#premium" aria-label="Navigate to Premium Distinctions"><i class="fas fa-chevron-right" aria-hidden="true"></i> Premium Distinctions</a></li>
+                    <li><a href="#" aria-label="Navigate to Degree Concierge"><i class="fas fa-chevron-right" aria-hidden="true"></i> Degree Concierge</a></li>
+                    <li><a href="#" aria-label="Navigate to QACA Charter"><i class="fas fa-chevron-right" aria-hidden="true"></i> QACA Charter</a></li>
+                    <li><a href="#" aria-label="Navigate to Basic Access"><i class="fas fa-chevron-right" aria-hidden="true"></i> Basic Access</a></li>
                     <li><a href="#features" aria-label="Navigate to Why QACA"><i class="fas fa-chevron-right" aria-hidden="true"></i> Why Choose QACA</a></li>
                     <li><a href="#invite" aria-label="Navigate to The Learned Assembly"><i class="fas fa-chevron-right" aria-hidden="true"></i> The Learned Assembly</a></li>
                 </ul>
@@ -2097,8 +2113,12 @@ footer {
                 <ul class="footer-links">
                     <li><a href="mailto:advisory@quantumacademic.com" aria-label="Email QACA"><i class="fas fa-envelope" aria-hidden="true"></i> advisory@quantumacademic.com</a></li>
                     <li><a href="tel:+12265821885" aria-label="Call QACA"><i class="fas fa-phone-alt" aria-hidden="true"></i> +1 (226) 582-1885</a></li>
-                    <li><a href="/location" aria-label="View our location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 335 Southdale Road W, London</a></li>
+                    <li><a href="https://maps.google.com/?q=335+Southdale+Rd+W,+London,+ON,+N6J+0A1,+Canada" target="_blank" rel="noopener noreferrer" aria-label="View our location on map"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 335 Southdale Rd W, London, ON, N6J 0A1, Canada</a></li>
                     <li><a href="/client-portal" aria-label="Access secure client portal"><i class="fas fa-lock" aria-hidden="true"></i> Secure Client Portal</a></li>
+                    <!-- Added legal links -->
+                    <li><a href="/disclaimer" aria-label="View our disclaimer"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Disclaimer</a></li>
+                    <li><a href="/terms" aria-label="View our terms of use"><i class="fas fa-file-contract" aria-hidden="true"></i> Terms of Use</a></li>
+                    <li><a href="/privacy" aria-label="View our privacy policy"><i class="fas fa-shield-alt" aria-hidden="true"></i> Privacy Policy</a></li>
                 </ul>
             </div>
             
@@ -2120,6 +2140,12 @@ footer {
                     <li><a href="https://medium.com/@qaca_advisors" target="_blank" rel="noopener noreferrer" aria-label="Read our Medium articles">
                         <i class="fab fa-medium" aria-hidden="true"></i> Medium
                     </a></li>
+                    <li><a href="https://polywork.com/qaca_advisors" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Polywork">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i> Polywork
+                    </a></li>
+                    <li><a href="https://qaca.substack.com" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our Substack">
+                        <i class="fas fa-newspaper" aria-hidden="true"></i> Substack
+                    </a></li>
                 </ul>
             </div>
             
@@ -2134,6 +2160,19 @@ footer {
                     </a></li>
                     <li><a href="https://ssrn.com/author=0000000" target="_blank" rel="noopener noreferrer" aria-label="Explore our SSRN publications">
                         <i class="ai ai-ssrn" aria-hidden="true"></i> SSRN
+                    </a></li>
+                    <li><a href="https://arxiv.org/search/?searchtype=author&query=QACA" target="_blank" rel="noopener noreferrer" aria-label="View our arXiv publications">
+                        <i class="ai ai-arxiv" aria-hidden="true"></i> arXiv
+                    </a></li>
+                    <li><a href="https://academia.edu/QACA" target="_blank" rel="noopener noreferrer" aria-label="View our Academia.edu profile">
+                        <i class="ai ai-academia" aria-hidden="true"></i> Academia.edu
+                    </a></li>
+                    <!-- Added Scopus and Publons -->
+                    <li><a href="https://scopus.com/author/QACA" target="_blank" rel="noopener noreferrer" aria-label="View our Scopus profile">
+                        <i class="ai ai-scopus" aria-hidden="true"></i> Scopus
+                    </a></li>
+                    <li><a href="https://publons.com/researcher/QACA" target="_blank" rel="noopener noreferrer" aria-label="View our Publons profile">
+                        <i class="ai ai-publons" aria-hidden="true"></i> Publons - Web of Science
                     </a></li>
                 </ul>
             </div>
@@ -2166,8 +2205,10 @@ footer {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "335 Southdale Road W",
+        "streetAddress": "335 Southdale Rd W",
         "addressLocality": "London",
+        "addressRegion": "ON",
+        "postalCode": "N6J 0A1",
         "addressCountry": "CA"
       }
     }
